@@ -1,0 +1,77 @@
+#root {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #fddcc356;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  width: 50%;
+  height: 600px;
+  background: url(../public/profile.jpg) no-repeat center / cover;
+  border-radius: 8px;
+}
+
+.right {
+  width: 30%;
+  height: 100%;
+  background-color: red;
+  min-height: 400px;
+  background-color: #2f3d3c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 8px;
+  color: white;
+  margin-left: -150px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #333333;
+  color: white;
+}
